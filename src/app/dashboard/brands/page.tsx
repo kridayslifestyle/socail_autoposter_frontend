@@ -10,7 +10,7 @@ type Brand = {
 };
 
 export default function BrandsPage() {
-  const API_URL = "https://socailautoposterbackend.up.railway123.app";
+  const API_URL = "https://socailautoposterbackend.up.railway.app";
 
   const [brands, setBrands] = useState<Brand[]>([]);
 
