@@ -24,7 +24,7 @@ export default function LoginPage() {
 
     try {
       const response = await fetch(
-        "https://socailautoposterbackend-production.up.railway.app/auth/login",
+        "https://socailautoposterbackend.up.railway.app/auth/login",
         {
           method: "POST",
 

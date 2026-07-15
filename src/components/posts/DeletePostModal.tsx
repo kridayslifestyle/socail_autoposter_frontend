@@ -28,7 +28,7 @@ export default function DeletePostModal({
     if (!open || !post) return null;
 
     const API_URL =
-        "https://socailautoposterbackend-production.up.railway.app";
+        "https://socailautoposterbackend.up.railway.app";
 
     const handleDelete = async () => {
 
